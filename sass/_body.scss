@@ -1,0 +1,51 @@
+body {
+  background: $bg-color;
+}
+
+main {
+  .news-container {
+    margin: 0 0 50px 0;
+    background: $white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+  }
+  .news-container:first-child {
+    margin-top: 100px;
+  }
+  .blog-info {
+    display: flex;
+    justify-content: space-between;
+    p {
+      color: $text;
+      margin-bottom: 20px;
+      @include type-1(16);
+      @include d(s) {
+        font-size: 0.875rem;
+        line-height: 1.09rem;
+        font-weight: 400;
+      }
+    }
+
+    i {
+      color: $heart;
+    }
+  }
+  .news-title {
+    margin-bottom: 8px;
+    @include type-1(26);
+    @include d(s) {
+      @include type-1(18);
+      line-height: 1.4rem;
+    }
+  }
+  .news-description {
+    @include type-1(18);
+    color: $text;
+    @include d(s) {
+      font-size: 0.875rem;
+      line-height: 1.625rem;
+      font-weight: 400;
+    }
+  }
+}

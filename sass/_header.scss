@@ -1,0 +1,46 @@
+header {
+  background: $bg-linear;
+  .header-title {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 2.562rem 0 4.562rem 0;
+    @include type-1(24);
+  }
+  .header-search {
+    display: flex;
+    i {
+      position: absolute;
+      margin: 1.562em;
+      color: $white;
+      @include d(s) {
+        margin: 0.9em;
+      }
+    }
+  }
+  input {
+    width: 100%;
+    height: 65px;
+
+    margin-bottom: 2.562rem;
+    padding-left: 64px;
+
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    @include type-2(18);
+    &:hover,
+    &:focus {
+      outline: none;
+      border-color: $bg-linear;
+    }
+
+    @include d(s) {
+      width: 100%;
+      height: 40px;
+    }
+  }
+  ::placeholder {
+    @include type-2(18);
+  }
+}

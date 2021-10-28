@@ -1,0 +1,9 @@
+@import 'variaveis-e-mixins';
+@import 'header';
+@import 'body';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

@@ -12,9 +12,7 @@ I already developed this project before with plain CSS. I recently did a Sass co
 
 <!-- ## ![](img/image.gif) -->
 
-<p align="center">
-	<img src="https://imgur.com/a/xC4qDTg.png" alt="Codelândia" title="Codelândia">
-</p>
+[Imgur](https://imgur.com/arrOet6)
 
 ## Technologies
 

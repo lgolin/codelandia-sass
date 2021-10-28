@@ -12,7 +12,7 @@ I already developed this project before with plain CSS. I recently did a Sass co
 
 <!-- ## ![](img/image.gif) -->
 
-[Imgur](https://imgur.com/arrOet6)
+<img src="https://i.imgur.com/arrOet6.png" alt="Codelândia" title="Codelândia">
 
 ## Technologies
 

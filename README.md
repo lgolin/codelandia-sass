@@ -17,8 +17,8 @@ I already developed this project before with plain CSS. I recently did a Sass co
 ## Technologies
 
 - **HTML5**
-- **[Sass]**(https://sass-lang.com/)
-- **[JavaScript]**(https://www.javascript.com/)
+- **[Sass](https://sass-lang.com/)**
+- **[JavaScript](https://www.javascript.com/)**
 
 ---
 
